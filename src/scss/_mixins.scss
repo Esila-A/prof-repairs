@@ -1,0 +1,41 @@
+@use "sass:map";
+
+@mixin btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: 3px solid map.get($colors, accent-color);
+  border-radius: 2rem;
+  color: map.get($colors, background-color);
+  font-family: $font-text;
+  letter-spacing: .1rem;
+  background-color: map.get($colors, accent-color);
+
+  &:hover {
+    border: 3px solid map.get($colors, font-second-color);
+  }
+}
+
+@mixin heading {
+  font-family: $font-heading;
+  font-size: 3.5rem;
+  padding-bottom: 5rem;
+  letter-spacing: .2rem;
+}
+
+@mixin mobileHeading {
+  font-family: $font-heading;
+  font-size: 2.2rem;
+  padding-bottom: 4rem;
+  letter-spacing: .2rem;
+}
+
+
+// TEXT //
+
+@mixin text {
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-family: $font-text;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
