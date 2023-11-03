@@ -13,32 +13,33 @@ const DashboardContact = () => {
 
   return (
     <div className="contact" id="contact">
-      <h2 className="contact_heading">MASZ PYTANIA? DZWOŃ I PISZ!</h2>
+      <h2 className="contact_heading">KONTAKT</h2>
       <div className="contact_information">
         <div>
-          <p className="contact_information--name">Firma Serlo</p>
+          <p className="contact_information--name">DANE FIRMY</p>
           <p className="contact_information--nip">
-            NIP: 1182237322 , REGON: 521346330
+            NIP: 1182237322<br/>
+            REGON: 521346330
           </p>
           <div className="contact_information--details">
             {phoneIcon}
-            <p className="contact_information--paragraph">+48 729 520 949</p>
+            <p className="contact_information--paragraph">+48 784 078 686<br/> +48 666 861 106</p>
           </div>
           <div className="contact_information--details">
             {mailIcon}
             <p className="contact_information--paragraph">
-              kontakt.serlo@gmail.com
+              profrepairsp@gmail.com
             </p>
           </div>
           <div className="contact_information--details">
             {facebookIcon}
             <a
-              href="https://www.facebook.com/profile.php?id=100079474383115"
+              href="https://www.instagram.com/prof_repairs/"
               className="contact_information--link"
               target="_blank"
               rel="noreferrer"
             >
-              KLIKNIJ
+              @prof_repairs
             </a>
           </div>
           <div className="contact_information--details">

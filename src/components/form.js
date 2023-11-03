@@ -82,7 +82,6 @@ const Form = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="wpisz swoje imię"
                 value={inputs.name}
                 onChange={handleChange}
                 className="input-fields input-fields--one"
@@ -94,7 +93,6 @@ const Form = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="wpisz swój email"
                 value={inputs.email}
                 onChange={handleChange}
                 className="input-fields input-fields--one"
@@ -105,7 +103,6 @@ const Form = () => {
               <p className="text">Wiadomość</p>
               <textarea
                 name="message"
-                placeholder="wpisz wiadomość"
                 value={inputs.message}
                 onChange={handleChange}
                 className="input-fields input-fields--two"

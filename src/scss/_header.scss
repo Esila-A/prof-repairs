@@ -1,36 +1,59 @@
 @use "sass:map";
 
 .header {
-  padding: 0 5rem 0 4rem;
-  height: 4.7rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 5px 10px rgb(143, 143, 143);
+  padding: 1vh 5vw;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
   background-color: map.get($colors, background-color);
 
-  &_logo {
-    height: 5.8rem;
-  }
-
   .navigation {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 6vw;
 
-    &_link {
-      text-decoration: none;
-      font-size: 1.1rem;
-      border-bottom: 4px solid transparent;
-      outline: 0;
-      color: rgb(48, 48, 48);
-      font-family: $font-text;
+    &_logo {
 
-      &:hover {
-        border-bottom: 4px solid map.get($colors, accent-color);
+      &--logo {
+        height: 4.5vw;
+      }
+    }
+
+    &_main-nav {
+      display: flex;
+      gap: 6vw;
+      justify-content: center;
+
+      &--link {
+        text-decoration: none;
+        font-size: 1.1vw;
+        border-bottom: 3px solid transparent;
+        padding-bottom: .3vh;
+        outline: 0;
+        color: map.get($colors, font-color);
+        font-family: $font-text;
+  
+        &:hover {
+          border-bottom: 3px solid map.get($colors, accent-color);
+        }
+      }
+    }
+
+    &_contact-nav {
+
+      &--link {
+        text-decoration: none;
+        font-size: 1.1vw;
+        padding: 1vh 2vw;
+        border: 3px solid map.get($colors, accent-color);
+        border-radius: 8px;
+        color: map.get($colors, background-color);
+        font-family: $font-text;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        background-color: map.get($colors, accent-color);
       }
     }
   }

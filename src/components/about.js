@@ -11,23 +11,14 @@ const DashboardAbout = () => {
     <div className="about" id="about">
       <h2 className="about_heading">O NAS</h2>
       <p className="about_paragraph">
-        Firma Serlo oferuje kompleksowe usługi remontowo-wykończeniowe. Choć
-        jesteśmy na rynku od niedawna, wszyscy nasi pracownicy posiadają
-        wieloletnie doświadczenie zdobyte w firmach budowlanych, remontowych i
-        wykończeniowych. Podczas pracy wykorzystujemy najnowsze sprzęty,
-        narzędzia i techniki, by jakość świadczonych usług była jak najwyższa.
-        Dbamy o czystość podczas pracy i sprzątamy po jej zakończeniu.
-        Podejmujemy się zleceń dotyczących całych mieszkań, jak również
-        pojedynczych pomieszczeń. Wykonujemy zlecenie zgodnie z wizją klienta, a
-        w razie potrzeby chętnie dzielimy się naszą wiedzą i służymy radą.
-        Precyzyjne wykonanie zleceń i zadowolenie klienta są dla nas
-        najważniejsze.
+      Firma Prof-Repairs oferuje kompleksowe usługi remontowo-wykończeniowe. Nasz zespół doświadczonych pracowników posiada bogate wieloletnie doświadczenie zdobyte w firmach budowlanych, remontowych i wykończeniowych. Naszą misją jest dostarczanie usług najwyższej jakości, dlatego też stale inwestujemy w najnowocześniejsze narzędzia, sprzęt i techniki.<br/><br/>
+      Nasza firma zwraca szczególną uwagę na czystość podczas wykonywanych prac i zawsze dokładnie sprząta po ich zakończeniu. Niezależnie od tego, czy potrzebujesz remontu całego mieszkania, czy pojedynczego pomieszczenia, jesteśmy gotowi podjąć się zadania. Nasza dewiza to realizacja Twojej wizji, ale jeśli potrzebujesz wsparcia w projektowaniu lub pomysłów, chętnie dzielimy się naszą wiedzą i doświadczeniem.<br/><br/>
+      Nasz priorytet to precyzyjne wykonanie zleceń i pełne zadowolenie klienta. Jeśli szukasz profesjonalnej firmy remontowej, która zrozumie Twoje potrzeby i zapewni doskonałą jakość usług, to Prof-Repairs jest gotowy do działania. Skontaktuj się z nami już dziś, aby rozpocząć projekt, który spełni Twoje oczekiwania.
       </p>
       <div className="about_points">
         <div className="about_points--details">
           {chatIcon}
           <p className="about_paragraph about_paragraph--withIcon">
-            {/* Wszystko jest ustalane wraz z klientem -  */}
             Określamy zakres i terminy prac, ustalamy dokładne koszty i tworzymy
             umowę.
           </p>

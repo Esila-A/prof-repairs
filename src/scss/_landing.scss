@@ -1,25 +1,56 @@
 @use "sass:map";
 
 .landing {
-  padding: 11rem 10rem 10rem 10rem;
+  padding: 15vh 1vw 10rem 1vw;
   text-align: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.4) 70%, rgba(239, 237, 237) 100%), url();
-  background-size: cover;
-  background-repeat: no-repeat;
+  color: map.get($colors, font-color);
 
-  &_heading {
+  &_heading-one {
     @include heading;
-    font-size: 6rem;
-    padding-bottom: 2rem;
+    font-size: 3vw;
+    font-weight: 600;
+    padding-bottom: 0;
     letter-spacing: .6rem;
+    color: map.get($colors, accent-color);
+    background-color: #1e7fa8;
+    color: transparent;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.555);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    line-height: 7vh;
+    text-decoration: none;
+  }
+
+  &_heading-two {
+    @include heading;
+    font-size: 2vw;
+    padding-bottom: 0;
+    color: map.get($colors, font-color);
+    text-decoration: none;
+  }
+
+  &_carousel {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 4vh 0;
+    overflow-x: scroll;
+    margin: 0 auto;
+
+    &--container {
+      height: 40vh;
+      width: 15vw;
+      object-fit: cover;
+    }
   }
 
   &_paragraph {
-    font-size: 2rem;
-    padding-bottom: 5rem;
+    font-size: 1.6vw;
+    padding-bottom: 4vh;
     font-family: $font-text;
     font-weight: 300;
-    line-height: 3rem;
+    line-height: 4vh;
   }
 
   &_button {

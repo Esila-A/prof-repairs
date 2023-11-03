@@ -1,7 +1,156 @@
 @use "sass:map";
 
+.contact {
+  padding: 15vh 5vw 10vh 5vw;
+  font-family: $font-text;
 
+  &_heading {
+    @include heading;
+    text-align: center;
+  }
+
+  &_information {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vh;
+
+    &--name {
+      @include heading;
+      padding-bottom: 1vh;
+      font-weight: 500;
+      text-decoration: none;
+      font-family: $font-text;
+    }
+
+    &--nip {
+      font-size: 1.3vw;
+      padding-bottom: 10vh;
+    }
+
+    &--details {
+      display: flex;
+      align-items: center;
+      padding-bottom: 2.3vh;
+      font-family: $font-text;
+      font-weight: 300;
+    }
+
+    &--paragraph {
+      font-size: 1.3vw;
+      margin-left: 1.5rem;
+    }
+
+    &--link {
+      text-decoration: none;
+      font-size: 1.3vw;
+      color: map.get($colors, accent-color);
+      border-bottom: 3px solid transparent;
+      padding-top: 3px;
+      margin-left: 1.5rem;
+      font-weight: 400;
+
+      &:hover {
+        border-bottom: 3px solid map.get($colors, accent-color);
+      }
+
+      &:active {
+        border-bottom: 3px solid map.get($colors, font-second-color);
+      }
+    }
+
+    .icon {
+      font-size: 2rem;
+      color: map.get($colors, accent-color);
+    }
+  }
+}
+
+@media (max-width: 792px) {
+  .contact {
+
+    margin: 0 1rem;
+
+    &_heading {
+      @include mobileHeading;
+      padding: 0;
+    }
+
+    &_information {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      text-align: center;
+
+      &--name {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+      }
+
+      &--nip {
+        font-size: 1.1rem;
+        padding-bottom: 3rem;
+      }
+
+      &--details {
+        flex-direction: column;
+        padding-bottom: 2.5rem;
+      }
+
+      &--paragraph {
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      &--link {
+        font-size: 1rem;
+        border: 2px solid map.get($colors, accent-color);
+        border-radius: 30px;
+        padding: 5px 20px;
+        margin: 0;
+
+      &:hover {
+        border: 2px solid map.get($colors, accent-color);
+      }
+
+        &:active {
+          border: 2px solid map.get($colors, font-second-color);
+        }
+      }
+
+      .icon {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
 
 @media (min-width: 792px) and (max-width: 1100px) {
+  .contact {
+    &_information {
+      margin: 0 3rem;
 
+      &--name {
+        font-size: 3rem;
+        line-height: 2.8rem;
+      }
+
+      &--nip {
+        font-size: 1.4rem;
+      }
+
+      &--details {
+        padding-bottom: 2rem;
+      }
+
+      &--paragraph {
+        font-size: 1.3rem;
+      }
+
+      .icon {
+        font-size: 1.8rem;
+      }
+    }
+  }
 }
