@@ -2,10 +2,10 @@
 
 @mixin btn {
   text-decoration: none;
-  font-size: 1.1vw;
+  font-size: 1vw;
   padding: 1.5vh 2vw;
   border: 2px solid map.get($colors, accent-color);
-  border-radius: 8px;
+  border-radius: 6px;
   color: map.get($colors, background-color);
   font-family: $font-text;
   font-weight: 600;
@@ -13,17 +13,21 @@
   background-color: map.get($colors, accent-color);
 
   &:hover {
-    box-shadow: 0 3px 6px map.get($colors, font-second-color);
+    // box-shadow: 0 3px 6px map.get($colors, font-second-color);
+    color: map.get($colors, accent-color);
+    background-color: map.get($colors, background-color);
   }
 
   &:active {
-    border: 2px solid map.get($colors, font-second-color);
+    // border: 2px solid map.get($colors, font-second-color);
+    color: map.get($colors, background-color);
+    background-color: map.get($colors, accent-color);  
   }
 }
 
 @mixin heading {
   font-family: $font-heading;
-  font-size: 2vw;
+  font-size: 1.9vw;
   text-decoration: underline map.get($colors, accent-color) 3px;
   text-underline-offset: 1vh;
 }
@@ -39,7 +43,7 @@
 // TEXT //
 
 @mixin text {
-  font-size: 1.3vw;
-  font-weight: normal;
+  font-size: 1.2vw;
+  font-weight: 300;
   font-family: $font-text;
 }

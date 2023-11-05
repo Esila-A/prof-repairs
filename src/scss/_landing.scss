@@ -1,16 +1,16 @@
 @use "sass:map";
 
 .landing {
-  padding: 15vh 1vw 10rem 1vw;
+  padding: 16vh 1vw 10rem 1vw;
   text-align: center;
   color: map.get($colors, font-color);
 
   &_heading-one {
     @include heading;
-    font-size: 3vw;
-    font-weight: 600;
+    font-size: 2.8vw;
+    font-weight: 500;
     padding-bottom: 0;
-    letter-spacing: .6rem;
+    letter-spacing: .6vw;
     color: map.get($colors, accent-color);
     background-color: #1e7fa8;
     color: transparent;
@@ -24,29 +24,31 @@
 
   &_heading-two {
     @include heading;
-    font-size: 2vw;
+    font-size: 1.8vw;
     padding-bottom: 0;
     color: map.get($colors, font-color);
     text-decoration: none;
+    letter-spacing: .4vw;
+
   }
 
   &_carousel {
     display: flex;
     align-items: center;
     gap: 3vw;
-    padding: 4vh 0;
+    padding: 6vh 0;
     overflow-x: scroll;
     margin: 0 auto;
 
     &--container {
-      height: 40vh;
-      width: 15vw;
+      height: 35vh;
+      width: 13vw;
       object-fit: cover;
     }
   }
 
   &_paragraph {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     padding-bottom: 4vh;
     font-family: $font-text;
     font-weight: 300;

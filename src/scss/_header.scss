@@ -28,7 +28,7 @@
 
       &--link {
         text-decoration: none;
-        font-size: 1.1vw;
+        font-size: 1vw;
         border-bottom: 3px solid transparent;
         padding-bottom: .3vh;
         outline: 0;
@@ -45,15 +45,21 @@
 
       &--link {
         text-decoration: none;
-        font-size: 1.1vw;
-        padding: 1vh 2vw;
-        border: 3px solid map.get($colors, accent-color);
-        border-radius: 8px;
-        color: map.get($colors, background-color);
+        font-size: 1vw;
+        padding: .9vh 1.9vw;
+        border: 2px solid map.get($colors, accent-color);
+        border-radius: 6px;
+        color: map.get($colors, accent-color);
         font-family: $font-text;
         font-weight: 600;
         letter-spacing: .1rem;
-        background-color: map.get($colors, accent-color);
+        // background-color: map.get($colors, accent-color);
+
+        &:hover {
+          color: map.get($colors, background-color);
+          background-color: map.get($colors, accent-color);
+
+        }
       }
     }
   }
@@ -97,6 +103,10 @@
         width: 100%;
         padding: 4rem;
         gap: 6rem;
+
+        &_logo {
+          display: none;
+        }
       }
     }
   }

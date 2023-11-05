@@ -1,11 +1,8 @@
-import { BsFillChatLeftDotsFill } from "react-icons/bs";
-import { FaFileInvoiceDollar } from "react-icons/fa";
-import { BsCreditCard2BackFill } from "react-icons/bs";
+import Convo from "../icons/convo.png";
+import Invoice from "../icons/invoice.png";
+import Wallet from "../icons/wallet.png";
 
 const DashboardAbout = () => {
-  const chatIcon = <BsFillChatLeftDotsFill className="icon" />;
-  const invoiceIcon = <FaFileInvoiceDollar className="icon" />;
-  const cardIcon = <BsCreditCard2BackFill className="icon" />;
 
   return (
     <div className="about" id="about">
@@ -17,20 +14,20 @@ const DashboardAbout = () => {
       </p>
       <div className="about_points">
         <div className="about_points--details">
-          {chatIcon}
+          <img src={Convo} className="icon"/>
           <p className="about_paragraph about_paragraph--withIcon">
             Określamy zakres i terminy prac, ustalamy dokładne koszty i tworzymy
             umowę.
           </p>
         </div>
         <div className="about_points--details">
-          {invoiceIcon}
+          <img src={Invoice} className="icon"/>
           <p className="about_paragraph about_paragraph--withIcon">
             Na życzenie wystawiamy fakturę.
           </p>
         </div>
         <div className="about_points--details">
-          {cardIcon}
+          <img src={Wallet} className="icon"/>
           <p className="about_paragraph about_paragraph--withIcon">
             Przyjmujemy płatność gotówką i kartą.
           </p>

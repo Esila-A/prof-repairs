@@ -5,7 +5,7 @@ const Navigation = (props) => {
   return (
     <nav className="navigation">
       <dev className="navigation_logo">
-        <HashLink to="/#landing" onClick={() => props.isMobilePhone && props.closeMenu()}><img src={logo} alt="logo" className="navigation_logo--logo"/></HashLink>
+        <HashLink to="/#landing"><img src={logo} alt="logo" className="navigation_logo--logo"/></HashLink>
       </dev>
       <dev className="navigation_main-nav">
         <HashLink to="/#landing" className="navigation_main-nav--link" onClick={() => props.isMobilePhone && props.closeMenu()}>GŁÓWNA</HashLink>
