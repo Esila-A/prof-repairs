@@ -11,7 +11,7 @@ const Navigation = (props) => {
         <HashLink to="/#landing" className="navigation_main-nav--link" onClick={() => props.isMobilePhone && props.closeMenu()}>GŁÓWNA</HashLink>
         <HashLink to="/#services" className="navigation_main-nav--link" onClick={() => props.isMobilePhone && props.closeMenu()}>USŁUGI</HashLink>
         <HashLink to="/#about" className="navigation_main-nav--link" onClick={() => props.isMobilePhone && props.closeMenu()}>O NAS</HashLink>
-        <NavHashLink to="/examples/#examples" className="navigation_main-nav--link" onClick={() => props.isMobilePhone && props.closeMenu()}>GALERIA</NavHashLink>
+        <NavHashLink to="/gallery/#gallery" className="navigation_main-nav--link" onClick={() => props.isMobilePhone && props.closeMenu()}>GALERIA</NavHashLink>
       </dev>
       <dev className="navigation_contact-nav">
         <HashLink to="/#contact" className="navigation_contact-nav--link" onClick={() => props.isMobilePhone && props.closeMenu()}>KONTAKT</HashLink>

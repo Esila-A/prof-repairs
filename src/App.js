@@ -6,7 +6,7 @@ import DashboardContact from "./components/contact";
 import Footer from "./components/footer";
 import DashboardLanding from "./components/landing";
 import DashboardServices from "./components/services";
-import Examples from "./components/examples";
+import Gallery from "./components/gallery";
 import Dashboard from "./components/dashboard";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="about" element={<DashboardAbout />} />
           <Route path="contact" element={<DashboardContact />} />
         </Route>
-        <Route path="examples" element={<Examples />} />
+        <Route path="gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </div>

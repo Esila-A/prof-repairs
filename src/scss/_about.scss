@@ -9,15 +9,15 @@
   }
 
   &_paragraph {
-    padding-top: 5vh;
-    font-size: 1.3vw;
+    padding-top: 7vh;
+    font-size: 1.2vw;
     text-align: justify;
     font-family: $font-text;
     font-weight: 300;
 
     &--withIcon {
       text-align: center;
-      font-size: 1vw;
+      font-size: 1.2vw;
       padding-top: 3vh;
     }
   }
@@ -27,7 +27,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 4vw;
     grid-auto-rows: minmax(100px, auto);
-    padding: 5vh 12vw 0 12vw;
+    padding: 7vh 12vw 0 12vw;
   }
 
   span {
@@ -35,7 +35,7 @@
   }
 
   .icon {
-    height: 8vh;
+    height: 7vh;
   }
 }
 

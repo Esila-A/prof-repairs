@@ -14,6 +14,10 @@
     justify-content: space-between;
     padding-top: 10vh;
 
+    .alignment {
+      padding-top: 1.5vh;
+    }
+
     &--name {
       @include heading;
       font-size: 1.5vw;
@@ -136,6 +140,10 @@
         margin: 0;
         display: flex;
         flex-direction: column;
+      }
+
+      .span {
+        display: none;
       }
     }
   }
