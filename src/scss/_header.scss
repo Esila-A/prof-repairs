@@ -73,13 +73,8 @@
 
   @media (max-width: 792px) {
 
-    padding: 0 2rem 0 1rem;
+    padding: 1vh 5vw 2vh 5vw;
     width: 100%;
-    height: 4.5rem;
-
-    &_logo {
-      height: 4.5rem;
-    }
 
     .computerNavigation {
       display: none;
@@ -87,27 +82,58 @@
 
     .mobileNavigation {
       display: flex;
+      justify-content: space-between;
+      align-items: center;
 
       .icon {
-        font-size: 2.2rem;
+        font-size: 5vh;
         align-self: center;
       }
 
       .navigation {
-        border-top: 3px solid map.get($colors, accent-color);
+        border-top: 2px solid map.get($colors, accent-color);
         background-color: map.get($colors, background-color);
-        box-sizing: border-box;
         flex-direction: column;
         align-items: center;
         position: absolute;
         right: 0;
-        top: 4.5rem;
+        top: 8vh;
         width: 100%;
-        padding: 4rem;
-        gap: 6rem;
+        padding: 4vh;
+        gap: 4vh;
 
         &_logo {
           display: none;
+
+          &--logo {
+            height: 5vh;
+          }
+        }
+
+        &_main-nav{
+          flex-direction: column;
+          align-items: center;
+          gap: 4vh;
+
+          &--link {
+            font-size: 3.5vw;
+            border-bottom: none;
+
+            &:hover {
+              color: map.get($colors, accent-color);
+              font-weight: 500;
+            }    
+          }
+        }
+
+        &_contact-nav {
+          
+          &--link {
+            font-size: 3.5vw;
+            border: 1.5px solid map.get($colors, accent-color);
+            font-weight: 500;
+            letter-spacing: .1rem;    
+          }
         }
       }
     }

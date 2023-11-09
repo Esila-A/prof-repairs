@@ -1,4 +1,20 @@
+@use "sass:map";
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6vw;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 20vh 5vw 10vh 5vw;
+
+    &_photo {
+        width: 40vw;
+        height: 70vh;
+        object-fit: cover;
+        padding: 8px;
+        border: 1px solid map.get($colors,accent-color);
+    }
+}
 
 @media (max-width: 792px) {
 

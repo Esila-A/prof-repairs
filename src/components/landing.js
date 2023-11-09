@@ -3,8 +3,8 @@ import Two from "../photos/2.png";
 import Three from "../photos/3.png";
 import Four from "../photos/4.jpg";
 import Five from "../photos/5.png";
-import Six from "../photos/6.png";
-import Seven from "../photos/7.jpg";
+import Six from "../photos/6.jpg";
+import Seven from "../photos/7.png";
 
 const DashboardLanding = () => {
   return (
