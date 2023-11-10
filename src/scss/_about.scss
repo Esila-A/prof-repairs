@@ -8,7 +8,8 @@
     @include heading;
   }
 
-  &_paragraph {
+  &_paragraph,
+  &_paragraph-star {
     padding-top: 7vh;
     font-size: 1.2vw;
     text-align: justify;
