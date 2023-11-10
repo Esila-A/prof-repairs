@@ -1,11 +1,11 @@
 import One from "../photos/1.png";
 import Two from "../photos/2.png";
-import Three from "../photos/3.jpg";
+import Three from "../photos/3.jpeg";
 import Four from "../photos/4.jpg";
-import Five from "../photos/5.jpg";
-import Six from "../photos/6.jpg";
-import Seven from "../photos/7.jpg";
-import Seventeen from "../photos/17.jpg";
+import Five from "../photos/5.jpeg";
+import Six from "../photos/6.jpeg";
+import Seven from "../photos/7.jpeg";
+import Seventeen from "../photos/17.jpeg";
 
 
 const DashboardLanding = () => {

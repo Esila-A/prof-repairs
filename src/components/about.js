@@ -14,20 +14,20 @@ const DashboardAbout = () => {
       </p>
       <div className="about_points">
         <div className="about_points--details">
-          <img src={Convo} className="icon"/>
+          <img src={Convo} alt="conversation-icon" className="icon"/>
           <p className="about_paragraph about_paragraph--withIcon">
             Określamy zakres i terminy prac, ustalamy dokładne koszty i tworzymy
             umowę.
           </p>
         </div>
         <div className="about_points--details">
-          <img src={Invoice} className="icon"/>
+          <img src={Invoice} alt="invoice-icon" className="icon"/>
           <p className="about_paragraph about_paragraph--withIcon">
             Na życzenie wystawiamy fakturę.
           </p>
         </div>
         <div className="about_points--details">
-          <img src={Wallet} className="icon"/>
+          <img src={Wallet} alt="wallet-icon" className="icon"/>
           <p className="about_paragraph about_paragraph--withIcon">
             Przyjmujemy płatność gotówką i kartą.
           </p>
