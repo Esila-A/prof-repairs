@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prof-repairs/static/css/main.a40f01fd.css",
-    "main.js": "/prof-repairs/static/js/main.0fc21636.js",
+    "main.css": "/prof-repairs/static/css/main.03767ed9.css",
+    "main.js": "/prof-repairs/static/js/main.e52fec21.js",
     "static/media/2.png": "/prof-repairs/static/media/2.5d0a326c15fdce43c4dd.png",
     "static/media/1.png": "/prof-repairs/static/media/1.ddfa7d71f24052c446b3.png",
     "static/media/20.jpg": "/prof-repairs/static/media/20.ad83fbea5595d2cf2547.jpg",
@@ -26,11 +26,11 @@
     "static/media/logo.png": "/prof-repairs/static/media/logo.32d4d726883c5fbd7e8f.png",
     "static/media/insta.png": "/prof-repairs/static/media/insta.985164df123bc27ac6ca.png",
     "index.html": "/prof-repairs/index.html",
-    "main.a40f01fd.css.map": "/prof-repairs/static/css/main.a40f01fd.css.map",
-    "main.0fc21636.js.map": "/prof-repairs/static/js/main.0fc21636.js.map"
+    "main.03767ed9.css.map": "/prof-repairs/static/css/main.03767ed9.css.map",
+    "main.e52fec21.js.map": "/prof-repairs/static/js/main.e52fec21.js.map"
   },
   "entrypoints": [
-    "static/css/main.a40f01fd.css",
-    "static/js/main.0fc21636.js"
+    "static/css/main.03767ed9.css",
+    "static/js/main.e52fec21.js"
   ]
 }
