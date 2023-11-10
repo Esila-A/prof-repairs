@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f0224bfd.css",
+    "main.js": "/static/js/main.2ae6ac89.js",
+    "static/media/2.png": "/static/media/2.f237446683fc31eca86b.png",
+    "static/media/1.png": "/static/media/1.3a623f74fd3a16abd704.png",
+    "static/media/20.jpg": "/static/media/20.3ff06d5fba306017ca17.jpg",
+    "static/media/8.jpg": "/static/media/8.71728641d1f7e803c3c1.jpg",
+    "static/media/18.jpg": "/static/media/18.234a1fc84c815e51984a.jpg",
+    "static/media/19.jpg": "/static/media/19.6c55695602cc4b95623f.jpg",
+    "static/media/21.jpg": "/static/media/21.0946f004ae8ba51c96ba.jpg",
+    "static/media/4.jpg": "/static/media/4.8e93924e156e3d2d66d2.jpg",
+    "static/media/6.jpg": "/static/media/6.e13e98c8068f9d4ee70b.jpg",
+    "static/media/16.jpg": "/static/media/16.3ea84c3bac52d439228c.jpg",
+    "static/media/9.jpg": "/static/media/9.5a5b94be7ccec1ece9e7.jpg",
+    "static/media/10.jpg": "/static/media/10.e770c54cadf7e5c38b79.jpg",
+    "static/media/17.jpg": "/static/media/17.ea0992cfab28e0d77a76.jpg",
+    "static/media/15.jpg": "/static/media/15.6429ff44d9da154356d8.jpg",
+    "static/media/13.jpg": "/static/media/13.7e4a1372cd74ad12bb39.jpg",
+    "static/media/3.jpg": "/static/media/3.0c529740de71864b39f1.jpg",
+    "static/media/12.jpg": "/static/media/12.0d03521a488b84c8b323.jpg",
+    "static/media/7.jpg": "/static/media/7.340edcf9b3adbda30b90.jpg",
+    "static/media/14.jpg": "/static/media/14.47c4bc2b647f7b578ebb.jpg",
+    "static/media/5.jpg": "/static/media/5.3f417b974c2f57ab840f.jpg",
+    "static/media/11.jpg": "/static/media/11.51d5c686c21e6a66758b.jpg",
+    "static/media/logo.png": "/static/media/logo.46102407b55f484e80cc.png",
+    "static/media/insta.png": "/static/media/insta.2e4a2c2fbd094a14d1e8.png",
+    "static/media/wallet.png": "/static/media/wallet.0642434bcaf921c8a1f1.png",
+    "static/media/email.png": "/static/media/email.73efba9cfd501ca6c36d.png",
+    "static/media/convo.png": "/static/media/convo.0ccab5609f3e38e2d6c8.png",
+    "static/media/water-energy.png": "/static/media/water-energy.f27a7bb391d7e868f5c3.png",
+    "static/media/phone.png": "/static/media/phone.b76498e5c124d5213615.png",
+    "index.html": "/index.html",
+    "main.f0224bfd.css.map": "/static/css/main.f0224bfd.css.map",
+    "main.2ae6ac89.js.map": "/static/js/main.2ae6ac89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0224bfd.css",
+    "static/js/main.2ae6ac89.js"
+  ]
+}
