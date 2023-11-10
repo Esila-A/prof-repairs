@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/prof-repairs/static/css/main.834e4141.css",
+    "main.css": "/prof-repairs/static/css/main.5f733471.css",
     "main.js": "/prof-repairs/static/js/main.24e7b1f0.js",
     "static/media/2.png": "/prof-repairs/static/media/2.5d0a326c15fdce43c4dd.png",
     "static/media/1.png": "/prof-repairs/static/media/1.ddfa7d71f24052c446b3.png",
@@ -26,11 +26,11 @@
     "static/media/logo.png": "/prof-repairs/static/media/logo.32d4d726883c5fbd7e8f.png",
     "static/media/insta.png": "/prof-repairs/static/media/insta.985164df123bc27ac6ca.png",
     "index.html": "/prof-repairs/index.html",
-    "main.834e4141.css.map": "/prof-repairs/static/css/main.834e4141.css.map",
+    "main.5f733471.css.map": "/prof-repairs/static/css/main.5f733471.css.map",
     "main.24e7b1f0.js.map": "/prof-repairs/static/js/main.24e7b1f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.834e4141.css",
+    "static/css/main.5f733471.css",
     "static/js/main.24e7b1f0.js"
   ]
 }
