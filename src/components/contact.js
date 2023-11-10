@@ -26,9 +26,9 @@ const DashboardContact = () => {
             </div>
             <div className="contact_information--details">
               <img src={Email} alt="email-icon" className="icon"/>
-              <p className="contact_information--paragraph">
+              <a href="mailto:profrepairs@gmail.com" className="contact_information--mail">
                 profrepairs@gmail.com
-              </p>
+              </a>
             </div>
             <div className="contact_information--details">
               <img src={Insta} alt="instagram-icon" className="icon"/>
