@@ -3,10 +3,10 @@
 .contact {
   padding: 15vh 5vw 8vh 5vw;
   font-family: $font-text;
+  text-align: center;
 
   &_heading {
     @include heading;
-    text-align: center;
   }
 
   &_information {
@@ -23,14 +23,16 @@
       font-size: 1.5vw;
       padding-bottom: 1vh;
       font-weight: 400;
-      text-decoration: none;
       font-family: $font-text;
+      border: none;
     }
 
     &--nip {
       font-size: 1.3vw;
       padding-bottom: 10vh;
       font-weight: 300;
+      text-decoration: none;
+      -webkit-text-decoration: none;
     }
 
     &--details {
@@ -96,7 +98,7 @@
       align-items: center;
       margin: 0;
       text-align: center;
-      padding-top: 5vh;
+      padding-top: 8vh;
   
       .alignment {
         padding-top: 0;

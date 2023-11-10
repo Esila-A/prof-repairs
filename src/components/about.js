@@ -6,7 +6,7 @@ const DashboardAbout = () => {
 
   return (
     <div className="about" id="about">
-      <h2 className="about_heading">O NAS</h2>
+      <span className="about_heading">O NAS</span>
       <p className="about_paragraph">
       Firma Prof-Repairs oferuje kompleksowe usługi remontowo-wykończeniowe. Nasz zespół doświadczonych pracowników posiada bogate wieloletnie doświadczenie zdobyte w firmach budowlanych, remontowych i wykończeniowych. Naszą misją jest dostarczanie usług najwyższej jakości, dlatego też stale inwestujemy w najnowocześniejsze narzędzia, sprzęt i techniki.<br/><br/>
       Nasza firma zwraca szczególną uwagę na czystość podczas wykonywanych prac i zawsze dokładnie sprząta po ich zakończeniu. Niezależnie od tego, czy potrzebujesz remontu całego mieszkania, czy pojedynczego pomieszczenia, jesteśmy gotowi podjąć się zadania. Nasza dewiza to realizacja Twojej wizji, ale jeśli potrzebujesz wsparcia w projektowaniu lub pomysłów, chętnie dzielimy się naszą wiedzą i doświadczeniem.<br/><br/>
@@ -33,8 +33,8 @@ const DashboardAbout = () => {
           </p>
         </div>
       </div>
-      <p className="about_paragraph">
-        <span>*</span> Większość naszych usług świadczymy tylko na terenie
+      <p className="about_paragraph-star">
+        <span className="star">*</span> Większość naszych usług świadczymy tylko na terenie
         Warszawy. Poza miasto wyjeżdżamy wyłącznie do zleceń dotyczących
         parkietów powyżej 60m<sup>2</sup> (renowacja parkietu, układanie
         nowego).

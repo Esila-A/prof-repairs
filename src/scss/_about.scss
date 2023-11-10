@@ -30,7 +30,7 @@
     padding: 7vh 12vw 0 12vw;
   }
 
-  span {
+  .star {
     color: red;
   }
 
@@ -49,7 +49,7 @@
     }
   
     &_paragraph {
-      padding-top: 0;
+      padding-top: 8vh;
       font-size: 3.5vw;
       text-align: justify;
       font-family: $font-text;
@@ -60,6 +60,14 @@
         font-size: 3.5vw;
         padding: 3vh 0 5vh 0;
       }
+    }
+
+    &_paragraph-star {
+      padding-top: 0;
+      font-size: 3.5vw;
+      text-align: justify;
+      font-family: $font-text;
+      font-weight: 300;
     }
   
     &_points {

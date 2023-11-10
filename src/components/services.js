@@ -8,11 +8,11 @@ import Furniture from "../icons/furniture.png";
 const DashboardServices = () => {
   return (
     <div className="services" id="services">
-      <h2 className="services_heading">USŁUGI</h2>
+      <span className="services_heading">USŁUGI</span>
       <div className="services_info">
         <div className="services_info--detailes">
           <img src={Paint} alt="paint-icon" className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">ŚCIANY I SUFITY</h3>
+          <span className="services_info--detailes title">ŚCIANY I SUFITY</span>
           <ul className="services_info--detailes list">
             <li>malowanie ścian i sufitów</li>
             <li>zrywanie tapet</li>
@@ -23,7 +23,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={Floor} alt="floor-icon" className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">PARKIETY I SCHODY</h3>
+          <span className="services_info--detailes title">PARKIETY I SCHODY</span>
           <ul className="services_info--detailes list">
             <li>cyklinowanie</li>
             <li>bejcowanie</li>
@@ -34,7 +34,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={Blueprint} alt="blueprint-icon" className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">PRZEBUDOWA</h3>
+          <span className="services_info--detailes title">PRZEBUDOWA</span>
           <ul className="services_info--detailes list">
             <li>rozbiórka (demontaż)</li>
             <li>montaż ścian działowych (bloczków, pustaków, GK)</li>
@@ -43,7 +43,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={Sink} alt="sink-icon" className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">KUCHNIA I ŁAZIENKA</h3>
+          <span className="services_info--detailes title">KUCHNIA I ŁAZIENKA</span>
           <ul className="services_info--detailes list">
             <li>układanie kafli naściennych i podłogowych</li>
             <li>mozaiki</li>
@@ -53,7 +53,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={WaEn} alt="water-energy-icon" className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">ELEKTRYKA I HYDRAULIKA</h3>
+          <span className="services_info--detailes title">ELEKTRYKA I HYDRAULIKA</span>
           <ul className="services_info--detailes list">
             <li>modyfikacja istniejących instalacji hydraulicznych i elektrycznych</li>
             <li>montaż gniazdek, włączników i oświetlenia</li>
@@ -62,7 +62,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={Furniture} alt="furniture-icon" className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">MEBLE</h3>
+          <span className="services_info--detailes title">MEBLE</span>
           <ul className="services_info--detailes list">
             <li>składanie mebli</li>
             <li>montaż mebli</li>

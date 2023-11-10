@@ -50,20 +50,22 @@
 @mixin heading {
   font-family: $font-heading;
   font-size: 1.9vw;
-  text-decoration: underline map.get($colors, accent-color) 3px;
-  text-underline-offset: 1vh;
+  // text-decoration: underline map.get($colors, accent-color) 3px;
+  // text-underline-offset: 1vh;
+  border-bottom: 3px solid map.get($colors, accent-color);
 }
 
 @mixin mobileHeading {
   font-family: $font-heading;
   font-size: 6vw;
-  padding-bottom: 4vh;
+  padding-bottom: .5vh;
   letter-spacing: .2rem;
-  text-decoration: underline map.get($colors, accent-color) 2px;
-  -webkit-text-decoration: underline map.get($colors, accent-color) 2px;
-  text-underline-offset: 1vh;
-  -webkit-text-underline-offset: 1vh;
+  // text-decoration: underline map.get($colors, accent-color) 2px;
+  // -webkit-text-decoration: underline map.get($colors, accent-color) 2px;
+  // text-underline-offset: 1vh;
+  // -webkit-text-underline-offset: 1vh;
   font-weight: 400;
+  border-bottom: 2px solid map.get($colors, accent-color);
 }
 
 
