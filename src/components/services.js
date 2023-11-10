@@ -12,7 +12,7 @@ const DashboardServices = () => {
       <div className="services_info">
         <div className="services_info--detailes">
           <img src={Paint} className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">Ściany i sufity</h3>
+          <h3 className="services_info--detailes title">ŚCIANY I SUFITY</h3>
           <ul className="services_info--detailes list">
             <li>malowanie ścian i sufitów</li>
             <li>zrywanie tapet</li>
@@ -23,7 +23,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={Floor} className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">Parkiety i schody</h3>
+          <h3 className="services_info--detailes title">PARKIETY I SCHODY</h3>
           <ul className="services_info--detailes list">
             <li>cyklinowanie</li>
             <li>bejcowanie</li>
@@ -34,7 +34,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={Blueprint} className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">Przebudowa</h3>
+          <h3 className="services_info--detailes title">PRZEBUDOWA</h3>
           <ul className="services_info--detailes list">
             <li>rozbiórka (demontaż)</li>
             <li>montaż ścian działowych (bloczków, pustaków, GK)</li>
@@ -43,7 +43,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={Sink} className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">Kuchnia i Łazienka</h3>
+          <h3 className="services_info--detailes title">KUCHNIA I ŁAZIENKA</h3>
           <ul className="services_info--detailes list">
             <li>układanie kafli naściennych i podłogowych</li>
             <li>mozaiki</li>
@@ -53,7 +53,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={WaEn} className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">Elektryka i hydraulika</h3>
+          <h3 className="services_info--detailes title">ELEKTRYKA I HYDRAULIKA</h3>
           <ul className="services_info--detailes list">
             <li>modyfikacja istniejących instalacji hydraulicznych i elektrycznych</li>
             <li>montaż gniazdek, włączników i oświetlenia</li>
@@ -62,7 +62,7 @@ const DashboardServices = () => {
         </div>
         <div className="services_info--detailes">
           <img src={Furniture} className="services_info--detailes img"/>
-          <h3 className="services_info--detailes title">Meble</h3>
+          <h3 className="services_info--detailes title">MEBLE</h3>
           <ul className="services_info--detailes list">
             <li>składanie mebli</li>
             <li>montaż mebli</li>

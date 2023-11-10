@@ -81,63 +81,77 @@
 
 @media (max-width: 792px) {
   .contact {
-
-    margin: 0 1rem;
-
+    padding: 12vh 5vw 8vh 5vw;
+    font-family: $font-text;
+  
     &_heading {
       @include mobileHeading;
-      padding: 0;
+      text-align: center;
     }
-
+  
     &_information {
       flex-direction: column;
       align-items: center;
       margin: 0;
       text-align: center;
-
+      padding-top: 5vh;
+  
+      .alignment {
+        padding-top: 0;
+      }
+  
       &--name {
-        font-size: 2rem;
-        padding-bottom: 1rem;
-        padding-top: 3rem;
+        font-size: 5vw;
+        padding-bottom: 1vh;
+        font-weight: 400;
+        text-decoration: none;
+        font-family: $font-text;
       }
-
+  
       &--nip {
-        font-size: 1.1rem;
-        padding-bottom: 3rem;
+        font-size: 4vw;
+        padding-bottom: 10vh;
+        font-weight: 300;
       }
-
+  
       &--details {
         flex-direction: column;
-        padding-bottom: 2.5rem;
+        padding-bottom: 7vh;
       }
-
+  
       &--paragraph {
-        font-size: 1rem;
-        margin: 0;
+        font-size: 4vw;
+        margin-left: 0;
       }
-
+  
       &--link {
-        font-size: 1rem;
-        border-radius: 30px;
-        padding: 5px 20px;
-        margin: 0;
+        text-decoration: none;
+        font-size: 4vw;
+        color: map.get($colors, accent-color);
+        border-bottom: 3px solid transparent;
+        padding-top: 3px;
+        margin-left: 0;
+        font-weight: 300;
+  
+        &:hover {
+          font-weight: 500;
+        }
+  
+        &:active {
+          font-weight: 100;
+        }
       }
-
-      .insta-link {
-        padding: none;
-        border-radius: none;
-
-      }
-
+  
       .icon {
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
+        height: 7vh;
+        margin-bottom: 2vh;
       }
-
+  
       .phone-numbers {
-        margin: 0;
+        margin-left: 0;
         display: flex;
         flex-direction: column;
+        font-size: 4vw;
       }
 
       .span {

@@ -86,45 +86,39 @@
 
 @media (max-width: 792px) {
   .attempt {
-    padding: 8vh 0 3vh 0;
+    padding: 0;
   }
 
   .form {
     &_content {
       .requests {
         .text {
-          font-size: 1rem;
+          font-size: 3.5VW;
           align-self: flex-start;
         }
 
         .input-fields {
           width: 80vw;
-
-          &::placeholder {
-            font-size: 0.8rem;
-          }
         }
       }
     }
 
     .submit {
-      margin-top: 1.5rem;
+      @include mobileBtn;
       align-self: center;
-      font-size: 1.1rem;
-      padding: .8rem 1.8rem;
     }
 
     .positive {
       margin-top: 1.5rem;
       align-self: center;
-      font-size: 1.1rem;
+      font-size: 3.5vw;
       padding: .7rem 1.8rem;
     }
 
     .negative {
       margin-top: 1.5rem;
       align-self: center;
-      font-size: 1.1rem;
+      font-size: 3.5vw;
       padding: .7rem 1.8rem;
     }
   }

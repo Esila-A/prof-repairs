@@ -31,7 +31,7 @@ const DashboardContact = () => {
               </p>
             </div>
             <div className="contact_information--details">
-            <img src={Insta} alt="instagram-icon" className="icon"/>
+              <img src={Insta} alt="instagram-icon" className="icon"/>
               <a
                 href="https://www.instagram.com/prof_repairs/"
                 className="contact_information--link insta-link"

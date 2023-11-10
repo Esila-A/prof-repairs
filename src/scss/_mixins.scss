@@ -26,6 +26,24 @@
   }
 }
 
+@mixin mobileBtn {
+  text-decoration: none;
+  font-size: 3.5vw;
+  padding: 1.5vh 3vw;
+  border: 2px solid map.get($colors, accent-color);
+  border-radius: 6px;
+  color: map.get($colors, background-color);
+  font-family: $font-text;
+  font-weight: 500;
+  letter-spacing: .1rem;
+  background-color: map.get($colors, accent-color);
+
+  &:active {
+    color: map.get($colors, accent-color);
+    background-color: map.get($colors, background-color);  
+  }
+}
+
 
 // HEADING //
 
@@ -38,7 +56,7 @@
 
 @mixin mobileHeading {
   font-family: $font-heading;
-  font-size: 5vw;
+  font-size: 6vw;
   padding-bottom: 4vh;
   letter-spacing: .2rem;
   text-decoration: underline map.get($colors, accent-color) 2px;
