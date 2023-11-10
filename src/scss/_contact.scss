@@ -44,6 +44,8 @@
     &--mail {
       font-size: 1.3vw;
       margin-left: 1.5rem;
+      text-decoration: none;
+      color: map.get($colors, font-color);
     }
 
     &--link {

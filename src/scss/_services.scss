@@ -57,6 +57,8 @@
     
         &_heading {
             @include mobileHeading;
+            text-decoration: underline map.get($colors, accent-color) 2px;
+            text-underline-offset: 1vh;          
         }
     
         &_info {
