@@ -60,7 +60,9 @@
   padding-bottom: 4vh;
   letter-spacing: .2rem;
   text-decoration: underline map.get($colors, accent-color) 2px;
+  -webkit-text-decoration: underline map.get($colors, accent-color) 2px;
   text-underline-offset: 1vh;
+  -webkit-text-underline-offset: 1vh;
   font-weight: 400;
 }
 
