@@ -3,7 +3,10 @@
 .contact {
   padding: 15vh 5vw 8vh 5vw;
   font-family: $font-text;
-  text-align: center;
+
+  .for-centering {
+    text-align: center
+  }
 
   &_heading {
     @include heading;

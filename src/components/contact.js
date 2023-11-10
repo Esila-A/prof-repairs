@@ -8,7 +8,7 @@ const DashboardContact = () => {
 
   return (
     <div className="contact" id="contact">
-      <span className="contact_heading">KONTAKT</span>
+      <div className="for-centering"><span className="contact_heading">KONTAKT</span></div>
       <div className="contact_information">
         <div className="alignment">
           <p className="contact_information--name">DANE FIRMY</p>
