@@ -44,14 +44,24 @@
   }
 }
 
+@mixin notification {
+  text-decoration: none;
+  font-size: .9vw;
+  padding: 1.4vh 2vw;
+  border-radius: 6px;
+  font-family: $font-text;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  color: map.get($colors, text-color);
+  background-color: map.get($colors, background-color);
+}
+
 
 // HEADING //
 
 @mixin heading {
   font-family: $font-heading;
   font-size: 1.9vw;
-  // text-decoration: underline map.get($colors, accent-color) 3px;
-  // text-underline-offset: 1vh;
   border-bottom: 3px solid map.get($colors, accent-color);
 }
 
@@ -60,10 +70,6 @@
   font-size: 6vw;
   padding-bottom: .5vh;
   letter-spacing: .2rem;
-  // text-decoration: underline map.get($colors, accent-color) 2px;
-  // -webkit-text-decoration: underline map.get($colors, accent-color) 2px;
-  // text-underline-offset: 1vh;
-  // -webkit-text-underline-offset: 1vh;
   font-weight: 400;
   border-bottom: 2px solid map.get($colors, accent-color);
 }

@@ -52,31 +52,17 @@
   }
 
   .positive {
-    font-size: 1.5rem;
-    padding: .9rem 2rem;
-    border: 3px solid map.get($colors, accent-color);
-    border-radius: 2rem;
-    font-family: $font-text;
-    letter-spacing: .1rem;
-    margin-top: 2rem;
+    @include notification;
+    border: 2px solid rgb(55, 181, 70);
+    margin-top: 3vh;
     align-self: flex-end;
-    color: black;
   }
 
   .negative {
-    font-size: 1.5rem;
-    padding: .9rem 2rem;
-    border: 3px solid map.get($colors, accent-color);
-    border-radius: 2rem;
-    font-family: $font-text;
-    letter-spacing: .1rem;
-    margin-top: 2rem;
+    @include notification;
+    border: 2px solid rgb(255, 89, 89);
+    margin-top: 3vh;
     align-self: flex-end;
-    color: black;
-
-    &:hover {
-      border: 3px solid map.get($colors, font-second-color);
-    }
   }
 
   .grecaptcha-badge {

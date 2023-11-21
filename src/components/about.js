@@ -8,7 +8,7 @@ const DashboardAbout = () => {
     <div className="about" id="about">
       <span className="about_heading">O NAS</span>
       <p className="about_paragraph">
-      Firma Prof-Repairs oferuje kompleksowe usługi remontowo-wykończeniowe. Nasz zespół doświadczonych pracowników posiada bogate wieloletnie doświadczenie zdobyte w firmach budowlanych, remontowych i wykończeniowych. Naszą misją jest dostarczanie usług najwyższej jakości, dlatego też stale inwestujemy w najnowocześniejsze narzędzia, sprzęt i techniki.<br/><br/>
+      Firma Prof Repairs oferuje kompleksowe usługi remontowo-wykończeniowe. Nasz zespół doświadczonych pracowników posiada bogate wieloletnie doświadczenie zdobyte w firmach budowlanych, remontowych i wykończeniowych. Naszą misją jest dostarczanie usług najwyższej jakości, dlatego też stale inwestujemy w najnowocześniejsze narzędzia, sprzęt i techniki.<br/><br/>
       Nasza firma zwraca szczególną uwagę na czystość podczas wykonywanych prac i zawsze dokładnie sprząta po ich zakończeniu. Niezależnie od tego, czy potrzebujesz remontu całego mieszkania, czy pojedynczego pomieszczenia, jesteśmy gotowi podjąć się zadania. Nasza dewiza to realizacja Twojej wizji, ale jeśli potrzebujesz wsparcia w projektowaniu lub pomysłów, chętnie dzielimy się naszą wiedzą i doświadczeniem.<br/><br/>
       Nasz priorytet to precyzyjne wykonanie zleceń i pełne zadowolenie klienta. Jeśli szukasz profesjonalnej firmy remontowej, która zrozumie Twoje potrzeby i zapewni doskonałą jakość usług, to Prof-Repairs jest gotowy do działania. Skontaktuj się z nami już dziś, aby rozpocząć projekt, który spełni Twoje oczekiwania.
       </p>
