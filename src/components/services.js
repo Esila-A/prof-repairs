@@ -73,7 +73,7 @@ const DashboardServices = () => {
         </div>
       </div>
       <p className="services_additional">
-        Realizujemy kompleksowe usługi remontowe, obejmujące pełen zakres działań od początku do końca. Nasza oferta uwzględnia znacznie szerszy zakres prac niż przedstawione w powyższych listach. Jeśli nie znajdziesz konkretnej usługi, której potrzebujesz, zachęcamy do kontaktu telefonicznego. Chętnie omówimy wszystkie szczegóły i dostosujemy nasze usługi do Twoich indywidualnych potrzeb. 
+      Jesteśmy specjalistyczną firmą świadczącą kompleksowe usługi remontowe, obejmujące pełen zakres działań od etapu planowania do zakończenia prac. Nasza oferta jest znacznie bardziej wszechstronna niż przedstawione powyżej listy. Jeśli nie znalazłeś interesującej Cię usługi w opublikowanej ofercie na naszej stronie, skontaktuj się z nami w celu ustalenia możliwości wykonania jej na zamówienie.
       </p>
     </div>
   );
