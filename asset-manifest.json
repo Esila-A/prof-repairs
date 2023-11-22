@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prof-repairs/static/css/main.5af9b306.css",
-    "main.js": "/prof-repairs/static/js/main.03a34600.js",
+    "main.js": "/prof-repairs/static/js/main.607e62b8.js",
     "static/media/2.png": "/prof-repairs/static/media/2.5d0a326c15fdce43c4dd.png",
     "static/media/1.png": "/prof-repairs/static/media/1.ddfa7d71f24052c446b3.png",
     "static/media/20.jpg": "/prof-repairs/static/media/20.ad83fbea5595d2cf2547.jpg",
@@ -27,10 +27,10 @@
     "static/media/insta.png": "/prof-repairs/static/media/insta.985164df123bc27ac6ca.png",
     "index.html": "/prof-repairs/index.html",
     "main.5af9b306.css.map": "/prof-repairs/static/css/main.5af9b306.css.map",
-    "main.03a34600.js.map": "/prof-repairs/static/js/main.03a34600.js.map"
+    "main.607e62b8.js.map": "/prof-repairs/static/js/main.607e62b8.js.map"
   },
   "entrypoints": [
     "static/css/main.5af9b306.css",
-    "static/js/main.03a34600.js"
+    "static/js/main.607e62b8.js"
   ]
 }
