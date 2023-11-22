@@ -54,10 +54,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_zqq2tfa",
-        "template_dyq3knc",
+        "service_l894jei",
+        "template_cnzykwe",
         form.current,
-        "hJJ7Cn_r4m0lT7JkG"
+        "08HHrMqkP6n8zMnCe"
       )
       .then(() => {
         setNotice("success");
