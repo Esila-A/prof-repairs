@@ -1,5 +1,65 @@
 @use "sass:map";
 
+// .landing {
+//   padding: 17vh 1vw 5vh 1vw;
+//   text-align: center;
+//   color: map.get($colors, font-color);
+
+//   &_heading-one {
+//     font-family: $font-heading;
+//     font-size: 1.9vw;  
+//     font-size: 2.8vw;
+//     font-weight: 500;
+//     padding-bottom: 1vh;
+//     letter-spacing: .6vw;
+//     color: map.get($colors, accent-color);
+//     background-color: #1e7fa8;
+//     color: transparent;
+//     text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.555);
+//     -webkit-background-clip: text;
+//     -moz-background-clip: text;
+//     background-clip: text;
+//     line-height: 7vh;
+//   }
+
+//   &_heading-two {
+//     font-family: $font-heading;
+//     font-size: 1.9vw;  
+//     font-size: 1.8vw;
+//     padding-bottom: 2vh;
+//     color: map.get($colors, font-color);
+//     letter-spacing: .4vw;
+//     }
+
+//   &_carousel {
+//     display: flex;
+//     align-items: center;
+//     gap: 3vw;
+//     padding: 5vh 0 8vh 0;
+//     overflow-x: scroll;
+//     margin: 0 auto;
+
+//     &--container {
+//       height: 55vh;
+//       width: 20vw;
+//       object-fit: cover;
+//     }
+//   }
+
+//   &_paragraph {
+//     font-size: 1.4vw;
+//     padding-bottom: 5vh;
+//     font-family: $font-text;
+//     font-weight: 300;
+//     line-height: 4vh;
+//   }
+
+//   &_button {
+//     @include btn;
+//     text-decoration: none;
+//   }
+// }
+
 .landing {
   padding: 17vh 1vw 5vh 1vw;
   text-align: center;
@@ -29,22 +89,41 @@
     padding-bottom: 2vh;
     color: map.get($colors, font-color);
     letter-spacing: .4vw;
+  }
+    
+  .landing_carousel [data-animated="true"],
+  .landing_carousel--inner {
+    width: max-content;
+    animation: scroll var(--_animation-duration, 40s)
+      var(--_animation-direction, forwards) linear infinite;
+  }
+
+  .landing_carousel [data-animated="true"]{
+    overflow: hidden;
+  }
+    
+  .landing_carousel {
+    overflow: hidden;
+    margin-bottom: 5vh;
+
+    &--inner {
+      padding-block: 1rem;
+      display: flex;
+      gap: 2vw;
     }
 
-  &_carousel {
-    display: flex;
-    align-items: center;
-    gap: 3vw;
-    padding: 5vh 0 8vh 0;
-    overflow-x: scroll;
-    margin: 0 auto;
-
     &--container {
-      height: 55vh;
-      width: 20vw;
+      height: 60vh;
+      width: 22vw;
       object-fit: cover;
     }
   }
+    
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }    
 
   &_paragraph {
     font-size: 1.4vw;
@@ -59,6 +138,7 @@
     text-decoration: none;
   }
 }
+
 
 @media (max-width: 792px) {
   .landing {
@@ -97,7 +177,6 @@
       &_paragraph {
         font-size: 4vw;
         padding-bottom: 4vh;
-        // text-align: justify;
       }
   
       &_button {

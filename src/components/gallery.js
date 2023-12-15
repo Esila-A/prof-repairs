@@ -19,7 +19,12 @@ import Eighteen from "../photos/18.jpg";
 import Nineteen from "../photos/19.jpg";
 import Twenty from "../photos/20.jpg";
 import TwentyOne from "../photos/21.jpg";
-
+import TwentyTwo from "../photos/22.jpeg";
+import TwentyThree from "../photos/23.jpeg";
+import TwentyFour from "../photos/24.jpeg";
+import TwentyFive from "../photos/25.jpeg";
+import TwentySix from "../photos/26.jpeg";
+import TwentySeven from "../photos/27.jpeg";
 
 const Gallery = () => {
   return (
@@ -45,6 +50,12 @@ const Gallery = () => {
         <img src={Nineteen} alt="Nineteen" className="gallery_photo" />
         <img src={Twenty} alt="Twenty" className="gallery_photo" />
         <img src={TwentyOne} alt="TwentyOne" className="gallery_photo" />
+        <img src={TwentyTwo} alt="TwentyTwo" className="gallery_photo" />
+        <img src={TwentyThree} alt="TwentyThree" className="gallery_photo" />
+        <img src={TwentyFour} alt="TwentyFour" className="gallery_photo" />
+        <img src={TwentyFive} alt="TwentyFive" className="gallery_photo" />
+        <img src={TwentySix} alt="TwentySix" className="gallery_photo" />
+        <img src={TwentySeven} alt="TwentySeven" className="gallery_photo" />
     </div>
   );
 }
