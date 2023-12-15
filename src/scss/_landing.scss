@@ -90,7 +90,7 @@
     color: map.get($colors, font-color);
     letter-spacing: .4vw;
   }
-    
+
   .landing_carousel [data-animated="true"],
   .landing_carousel--inner {
     width: max-content;
@@ -101,7 +101,7 @@
   .landing_carousel [data-animated="true"]{
     overflow: hidden;
   }
-    
+
   .landing_carousel {
     overflow: hidden;
     margin-bottom: 5vh;
@@ -118,12 +118,12 @@
       object-fit: cover;
     }
   }
-    
+
   @keyframes scroll {
     to {
       transform: translate(calc(-50% - 0.5rem));
     }
-  }    
+  }
 
   &_paragraph {
     font-size: 1.4vw;
@@ -177,6 +177,7 @@
       &_paragraph {
         font-size: 4vw;
         padding-bottom: 4vh;
+        // text-align: justify;
       }
   
       &_button {
