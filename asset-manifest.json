@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/prof-repairs/static/css/main.5af9b306.css",
-    "main.js": "/prof-repairs/static/js/main.607e62b8.js",
+    "main.css": "/prof-repairs/static/css/main.da5d6416.css",
+    "main.js": "/prof-repairs/static/js/main.39d0974a.js",
+    "static/media/27.jpeg": "/prof-repairs/static/media/27.f577e7c9f2cd9054117c.jpeg",
+    "static/media/24.jpeg": "/prof-repairs/static/media/24.948af2453bb30bc62285.jpeg",
+    "static/media/22.jpeg": "/prof-repairs/static/media/22.25c3683f64a487aa4d54.jpeg",
     "static/media/2.png": "/prof-repairs/static/media/2.5d0a326c15fdce43c4dd.png",
+    "static/media/23.jpeg": "/prof-repairs/static/media/23.37b5e9fc248253aba4bd.jpeg",
     "static/media/1.png": "/prof-repairs/static/media/1.ddfa7d71f24052c446b3.png",
+    "static/media/26.jpeg": "/prof-repairs/static/media/26.b00fccd75bf3f9157e88.jpeg",
     "static/media/20.jpg": "/prof-repairs/static/media/20.ad83fbea5595d2cf2547.jpg",
     "static/media/6.jpeg": "/prof-repairs/static/media/6.c0d65d1b86ab1edb9645.jpeg",
     "static/media/8.jpeg": "/prof-repairs/static/media/8.4b66242aa99f2852a2b9.jpeg",
     "static/media/4.jpg": "/prof-repairs/static/media/4.e3a7b65437cf3bca071d.jpg",
+    "static/media/25.jpeg": "/prof-repairs/static/media/25.31167da86c546b080b7c.jpeg",
     "static/media/16.jpeg": "/prof-repairs/static/media/16.e2646d4b4401acb6e409.jpeg",
     "static/media/9.jpeg": "/prof-repairs/static/media/9.7f83ff88eb53d7d1e299.jpeg",
     "static/media/18.jpg": "/prof-repairs/static/media/18.12bc1e7e93496fb73d1c.jpg",
@@ -26,11 +32,11 @@
     "static/media/logo.png": "/prof-repairs/static/media/logo.32d4d726883c5fbd7e8f.png",
     "static/media/insta.png": "/prof-repairs/static/media/insta.985164df123bc27ac6ca.png",
     "index.html": "/prof-repairs/index.html",
-    "main.5af9b306.css.map": "/prof-repairs/static/css/main.5af9b306.css.map",
-    "main.607e62b8.js.map": "/prof-repairs/static/js/main.607e62b8.js.map"
+    "main.da5d6416.css.map": "/prof-repairs/static/css/main.da5d6416.css.map",
+    "main.39d0974a.js.map": "/prof-repairs/static/js/main.39d0974a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5af9b306.css",
-    "static/js/main.607e62b8.js"
+    "static/css/main.da5d6416.css",
+    "static/js/main.39d0974a.js"
   ]
 }
