@@ -1,11 +1,11 @@
-import About from "../components/about";
+import Services from "../components/services";
 import Landing from "../components/landing";
 
 const Dashboard = () => {
   return (
     <div>
       <Landing />
-      <About />
+      <Services />
     </div>
   )
 };

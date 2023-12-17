@@ -2,7 +2,6 @@ import Navigation from "./navigation";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
-
 import { HashLink} from "react-router-hash-link";
 import logo from "../icons/logo.png"
 
