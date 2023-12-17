@@ -4,7 +4,7 @@ import Insta from "../icons/insta.png";
 
 import Form from "./form";
 
-const DashboardContact = () => {
+const Contact = () => {
 
   return (
     <div className="contact" id="contact">
@@ -49,4 +49,4 @@ const DashboardContact = () => {
   );
 };
 
-export default DashboardContact;
+export default Contact;

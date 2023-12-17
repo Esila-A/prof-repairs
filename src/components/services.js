@@ -5,7 +5,7 @@ import Sink from "../icons/sink.png";
 import WaEn from "../icons/water-energy.png";
 import Furniture from "../icons/furniture.png";
 
-const DashboardServices = () => {
+const Services = () => {
   return (
     <div className="services" id="services">
       <span className="services_heading">USŁUGI</span>
@@ -79,4 +79,4 @@ const DashboardServices = () => {
   );
 };
 
-export default DashboardServices;
+export default Services;

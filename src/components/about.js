@@ -2,7 +2,7 @@ import Convo from "../icons/convo.png";
 import Invoice from "../icons/invoice.png";
 import Wallet from "../icons/wallet.png";
 
-const DashboardAbout = () => {
+const About = () => {
 
   return (
     <div className="about" id="about">
@@ -43,4 +43,4 @@ const DashboardAbout = () => {
   );
 };
 
-export default DashboardAbout;
+export default About;

@@ -7,9 +7,8 @@
   right: 0;
   top: 0;
   z-index: 1;
-  background: linear-gradient(to bottom, map.get($colors, background-color), transparent);
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  background: linear-gradient(to bottom, map.get($colors, background-color) 20%, #f6f6f68e 70%, transparent 100%);
+  
 
   .navigation {
     display: flex;
@@ -139,22 +138,22 @@
     }
   }
 
-  @media (min-width: 792px) and (max-width: 1100px) {
-    padding: 0 5rem 0 3rem;
-    height: 4.8rem;
+  // @media (min-width: 792px) and (max-width: 1100px) {
+  //   padding: 0 5rem 0 3rem;
+  //   height: 4.8rem;
 
-    &_logo {
-      height: 5.5rem;
-    }
+  //   &_logo {
+  //     height: 5.5rem;
+  //   }
 
-    .navigation {
-      gap: 6vw;
+  //   .navigation {
+  //     gap: 6vw;
 
-      &_link {
-        font-size: 1rem;
-      }
-    }
-  }
+  //     &_link {
+  //       font-size: 1rem;
+  //     }
+  //   }
+  // }
 }
 
 

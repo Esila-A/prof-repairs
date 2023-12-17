@@ -1,15 +1,11 @@
-import DashboardAbout from "../components/about";
-import DashboardContact from "../components/contact";
-import DashboardLanding from "../components/landing";
-import DashboardServices from "../components/services";
+import About from "../components/about";
+import Landing from "../components/landing";
 
 const Dashboard = () => {
   return (
     <div>
-      <DashboardLanding />
-      <DashboardServices />
-      <DashboardAbout />
-      <DashboardContact />
+      <Landing />
+      <About />
     </div>
   )
 };

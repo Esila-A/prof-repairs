@@ -7,28 +7,28 @@ import Six from "../photos/6.jpeg";
 import Seven from "../photos/7.jpeg";
 import Seventeen from "../photos/17.jpeg";
 
-const DashboardLanding = () => {
+const Landing = () => {
 
-  const scrollers = document.querySelectorAll(".landing_carousel");
+  // const scrollers = document.querySelectorAll(".landing_carousel");
 
-  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    addAnimation();
-  }
+  // if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  //   addAnimation();
+  // }
   
-  function addAnimation() {
-    scrollers.forEach((scroller) => {
-      scroller.setAttribute("data-animated", true);
+  // function addAnimation() {
+  //   scrollers.forEach((scroller) => {
+  //     scroller.setAttribute("data-animated", true);
   
-      const scrollerInner = scroller.querySelector(".landing_carousel--inner");
-      const scrollerContent = Array.from(scrollerInner.children);
+  //     const scrollerInner = scroller.querySelector(".landing_carousel--inner");
+  //     const scrollerContent = Array.from(scrollerInner.children);
   
-      scrollerContent.forEach((item) => {
-        const duplicatedItem = item.cloneNode(true);
-        duplicatedItem.setAttribute("aria-hidden", true);
-        scrollerInner.appendChild(duplicatedItem);
-      });
-    });
-  }
+  //     scrollerContent.forEach((item) => {
+  //       const duplicatedItem = item.cloneNode(true);
+  //       duplicatedItem.setAttribute("aria-hidden", true);
+  //       scrollerInner.appendChild(duplicatedItem);
+  //     });
+  //   });
+  // }
 
   return (
     // <div className="landing" id="landing">
@@ -57,22 +57,72 @@ const DashboardLanding = () => {
     <div className="landing" id="landing">
       <h1 className="landing_heading-one">PROF REPAIRS</h1>
       <h2 className="landing_heading-two">PROFESJONALNE USŁUGI REMONTOWO-WYKOŃCZENIOWE</h2>
-      <div id="carousel" className="landing_carousel" data-animated="true">
+      <div id="carousel" className="landing_carousel laptop" >
         <div className="landing_carousel--inner">
-          <img src={One} alt="One" className="landing_carousel--container" />
-          <img src={Two} alt="Two" className="landing_carousel--container" />
-          <img src={Three} alt="Three" className="landing_carousel--container" />
-          <img src={Four} alt="Four" className="landing_carousel--container" />
-          <img src={Five} alt="Five" className="landing_carousel--container" />
-          <img src={Six} alt="Six" className="landing_carousel--container" />
-          <img src={Seven} alt="Seven" className="landing_carousel--container" />
-          <img src={Seventeen} alt="Seventeen" className="landing_carousel--container" />
+          <div className="landing_carousel--image">
+            <img src={One} alt="One" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Two} alt="Two" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Three} alt="Three" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Four} alt="Four" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Five} alt="Five" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Six} alt="Six" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Seven} alt="Seven" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Seventeen} alt="Seventeen" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={One} alt="One" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Two} alt="Two" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Three} alt="Three" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Four} alt="Four" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Five} alt="Five" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Six} alt="Six" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Seven} alt="Seven" className="landing_carousel--container" />
+          </div>
+          <div className="landing_carousel--image">
+            <img src={Seventeen} alt="Seventeen" className="landing_carousel--container" />
+          </div>
         </div>
       </div>
+      <div id="carousel" class="landing_carousel mobile">
+        <img src={One} alt="One" class="landing_carousel--container" />
+        <img src={Two} alt="Two" class="landing_carousel--container" />
+        <img src={Three} alt="Three" class="landing_carousel--container" />
+        <img src={Four} alt="Four" class="landing_carousel--container" />
+        <img src={Five} alt="Five" class="landing_carousel--container" />
+        <img src={Six} alt="Six" class="landing_carousel--container" />
+        <img src={Seven} alt="Seven" class="landing_carousel--container" />
+        <img src={Seventeen} alt="Seventeen" class="landing_carousel--container" />
+      </div>
       <p className="landing_paragraph">
-      Oferujemy szeroką gamę kompleksowych usług budowlanych, remontowych i wykończeniowych.<br/>
-      Potrzebujesz cyklinowania, malowania bądź złożenia mebli? A może chcesz całkowicie przebudwać łazienkę?<br/>
-      Nie wahaj się i zadzwoń lub napisz.
+        Oferujemy szeroką gamę kompleksowych usług budowlanych, remontowych i wykończeniowych.<br/>
+        Potrzebujesz cyklinowania, malowania bądź złożenia mebli? A może chcesz całkowicie przebudwać łazienkę?<br/>
+        Nie wahaj się i zadzwoń lub napisz.
       </p>
       <a href="#contact" className="landing_button btn">
         SKONTAKTUJ SIĘ
@@ -81,4 +131,4 @@ const DashboardLanding = () => {
   );
 };
 
-export default DashboardLanding;
+export default Landing;
