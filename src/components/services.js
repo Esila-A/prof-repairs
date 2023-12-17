@@ -73,7 +73,7 @@ const Services = () => {
         </div>
       </div>
       <p className="services_additional">
-      Jesteśmy specjalistyczną firmą świadczącą kompleksowe usługi remontowe, obejmujące pełen zakres działań od etapu planowania do zakończenia prac. Nasza oferta jest znacznie bardziej wszechstronna niż przedstawione powyżej listy. Jeśli nie znalazłeś interesującej Cię usługi w opublikowanej ofercie na naszej stronie, skontaktuj się z nami w celu ustalenia możliwości wykonania jej na zamówienie.
+        Jesteśmy specjalistyczną firmą świadczącą kompleksowe usługi remontowe, obejmujące pełen zakres działań od etapu planowania do zakończenia prac. Nasza oferta jest znacznie bardziej wszechstronna niż przedstawione powyżej listy. Jeśli nie znalazłeś interesującej Cię usługi w opublikowanej ofercie na naszej stronie, skontaktuj się z nami w celu ustalenia możliwości wykonania jej na zamówienie.
       </p>
     </div>
   );

@@ -160,6 +160,10 @@
         display: flex;
         flex-direction: column;
         font-size: 4vw;
+          
+        &_number {
+          font-size: 1.3vw;
+        }
       }
 
       .span {
