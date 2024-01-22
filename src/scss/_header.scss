@@ -1,5 +1,13 @@
 @use "sass:map";
 
+.header.closed {
+  background: linear-gradient(to bottom, map.get($colors, background-color) 20%, #f6f6f68e 70%, transparent 100%);
+}
+.header.open {
+  background-color: map.get($colors, background-color);
+  opacity: 95%;
+}
+
 .header {
   padding: 1vh 5vw;
   position: fixed;
@@ -7,8 +15,6 @@
   right: 0;
   top: 0;
   z-index: 1;
-  background: linear-gradient(to bottom, map.get($colors, background-color) 20%, #f6f6f68e 70%, transparent 100%);
-  
 
   .navigation {
     display: flex;
@@ -92,7 +98,7 @@
       .navigation {
         border-top: 2px solid map.get($colors, accent-color);
         background-color: map.get($colors, background-color);
-        opacity: 90%;
+        opacity: 95%;
         flex-direction: column;
         align-items: center;
         position: absolute;
