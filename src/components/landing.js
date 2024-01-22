@@ -1,3 +1,5 @@
+import { NavHashLink } from "react-router-hash-link";
+
 import One from "../photos/1.png";
 import Two from "../photos/2.png";
 import Three from "../photos/3.jpeg";
@@ -80,9 +82,9 @@ const Landing = () => {
         Potrzebujesz cyklinowania, malowania bądź złożenia mebli? A może chcesz całkowicie przebudwać łazienkę?<br/>
         Nie wahaj się i zadzwoń lub napisz.
       </p>
-      <a href="#contact" className="landing_button btn">
+      <NavHashLink to="/contact/#contact" className="landing_button btn">
         SKONTAKTUJ SIĘ
-      </a>
+      </NavHashLink>
     </div>
   );
 };
