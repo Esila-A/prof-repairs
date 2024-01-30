@@ -1,7 +1,7 @@
 @use "sass:map";
 
 .landing {
-  padding: 17vh 1vw 5vh 1vw;
+  padding: 17vh 1vw 2vh 1vw;
   text-align: center;
   color: map.get($colors, font-color);
   position: relative;
@@ -100,7 +100,7 @@
 
 @media (max-width: 792px) {
   .landing {
-      padding: 13vh 5vw 5vh 5vw;
+      padding: 13vh 5vw 2vh 5vw;
       text-align: center;
       position: static;
 
