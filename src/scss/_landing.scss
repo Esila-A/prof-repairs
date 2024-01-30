@@ -46,12 +46,12 @@
     
     &--inner {
       display: flex;
-      animation: scroll 40s linear infinite;
+      animation: scroll 45s linear infinite;
       align-items: center;
 
-      // &:hover {
-      //   animation-play-state: paused;
-      // }
+      &:hover {
+        animation-play-state: paused;
+      }
     }
 
     &--image {
@@ -59,7 +59,13 @@
       width: 17vw;
       perspective: 5vw;
       display: flex;
-      padding: 15px;
+      padding: 15px 15px;
+      transition: transform 1s;
+
+      &:hover {
+        margin: 0 30px;
+        transform: scale(1.5);
+      }
     }
 
     img {
@@ -67,7 +73,8 @@
       // transition: transform 1s;
 
       // &:hover {
-      //   transform: translateZ(30px);
+      //   transform: scale(1.7);
+      //   z-index: 9999999;
       // }
     }
 

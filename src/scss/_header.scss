@@ -1,7 +1,7 @@
 @use "sass:map";
 
 .header.closed {
-  background: linear-gradient(to bottom, map.get($colors, background-color) 20%, #f6f6f68e 70%, transparent 100%);
+  background: linear-gradient(to bottom, map.get($colors, background-color) 50%, #f6f6f6f3 65%, #f6f6f6d9 85%, transparent 100%);
 }
 .header.open {
   background-color: map.get($colors, background-color);
